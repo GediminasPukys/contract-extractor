@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 
 class SoftwareContract(BaseModel):
     software_system_name: str = Field(description="Name of product or service")
-    vendor_name_dba: str = Field(description="Company providing software or service (DOING BUSINESS AS)")
-    vendor_name_legal: str = Field(description="Company providing software or service (LEGAL ENTITY)")
+    vendor_name_dba: str = Field(description="Company providing software or service (who is providing the servise?) (DOING BUSINESS AS)")
+    vendor_name_legal: str = Field(description="Company providing software or service (who is providing the servise legal name?) (LEGAL ENTITY) ")
     contract_start: Optional[str] = Field(description="Contract start date (start = date of contract)", default=None)
     contract_end: Optional[str] = Field(description="Contract end date", default=None)
     contract_period: Optional[int] = Field(description="Contract duration (period of contract) in months", default=None)
