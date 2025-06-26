@@ -1,0 +1,23 @@
+[
+  {
+    "pdf_path": "few_shot_examples/text2drive_contract.pdf",
+    "expected_output": {
+      "software_system_name": "Text2Drive",
+      "vendor_name_dba": "AWD Marketing Inc.",
+      "vendor_name_legal": "9355-7742 Québec inc.",
+      "contract_start": "2018-12-11",
+      "contract_end": null,
+      "contract_period": 1,
+      "auto_renewal": true,
+      "cancellation_notice_initial": 90,
+      "cancellation_notice_ongoing": 30,
+      "payment_terms": "monthly",
+      "payment_amount_setup": 499.0,
+      "payment_amount_per_terms": 924.0,
+      "sla_uptime_guarantee": null,
+      "integration_clauses": "DMS (CDK for this client)",
+      "data_ownership": "DEALER",
+      "license_count": -1
+    }
+  }
+]
