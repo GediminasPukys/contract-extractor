@@ -29,7 +29,7 @@ class SoftwareContract(BaseModel):
     payment_terms: Optional[str] = Field(description="Terms (monthly, yearly, user subscription, per licence, other)",
                                          default=None)
     payment_delay: Optional[int] = Field(description="Delay between invoice receiption and payment (in days)",
-                                         default=None)
+                                         default=0)
     payment_amount_setup: Optional[float] = Field(description="Payment amount, setup fee", default=None)
     payment_amount_per_terms: Optional[float] = Field(
         description="Payment amount per terms (per user, per month, per licence)", default=None)

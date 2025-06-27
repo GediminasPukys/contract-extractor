@@ -113,7 +113,7 @@ def display_contract_data(contract_data: SoftwareContract):
             "Cancellation Notice (ONGOING, DAYS)": str(
                 contract_data.cancellation_notice_ongoing) if contract_data.cancellation_notice_ongoing is not None else "NULL",
             "Payment Terms": contract_data.payment_terms if contract_data.payment_terms else "NULL",
-            "Payment Delay": contract_data.payment_delay if contract_data.payment_delay else "NULL",
+            "Payment Delay": contract_data.payment_delay if contract_data.payment_delay else "0",
             "Payment amount, setup fee": f"${contract_data.payment_amount_setup:.2f}" if contract_data.payment_amount_setup is not None else "NULL",
             "Payment amount per terms": f"${contract_data.payment_amount_per_terms:.2f}" if contract_data.payment_amount_per_terms is not None else "NULL",
             "SLA/Uptime Guarantee": contract_data.sla_uptime_guarantee if contract_data.sla_uptime_guarantee else "NULL",
