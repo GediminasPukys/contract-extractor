@@ -11,6 +11,7 @@
       "auto_renewal": true,
       "cancellation_notice_initial": 90,
       "cancellation_notice_ongoing": 30,
+      "payment_delay": null,
       "payment_terms": "monthly",
       "payment_amount_setup": 499.0,
       "payment_amount_per_terms": 924.0,
